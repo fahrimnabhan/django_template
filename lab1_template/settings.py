@@ -1,4 +1,4 @@
-# PostgreSQL
+# Postgre SQL
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -11,7 +11,7 @@ DATABASES = {
 }
 
 INSTALLED_APPS = (
-    'standalone',
+    'orm',
 )
 
 SECRET_KEY = 'SECRET KEY for this Django Project'
